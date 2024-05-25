@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="WhatsAPI.png" alt="WhatsAPI Logo" />
+</p>
+
 # WhatsAPI
 
 A simple and efficient REST API for programmatically sending WhatsApp messages using Node.js.
@@ -73,7 +77,7 @@ Make sure you have the following installed on your machine:
 #### Example Request
 
 ```sh
-curl --location 'http://localhost:3001/v1/messages' --header 'Content-Type: application/json' --data '{
+curl --location 'http://whatsapi.buluu.es:6001/v1/messages' --header 'Content-Type: application/json' --data '{
     "number": "34699876543",
     "message": "mensaje de prueba"
 }'
